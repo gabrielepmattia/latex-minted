@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:latest
 MAINTAINER Gabriele Proietti Mattia <gabry.gabry@hotmail.it>
 
 RUN apt-get update -qyy
