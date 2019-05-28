@@ -1,6 +1,8 @@
 FROM ubuntu:latest
 MAINTAINER Gabriele Proietti Mattia <gabry.gabry@hotmail.it>
 
+ENV DEBIAN_FRONTEND=noninteractive
+
 RUN apt-get update -qyy
 RUN apt-get install --no-install-recommends -qyy \
   texlive \
